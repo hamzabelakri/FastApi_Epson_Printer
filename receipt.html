@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+      }
+
+      .title {
+        margin-top: 0;
+        font-size: 1.3rem;
+      }
+      h1 {
+        text-align: center;
+      }
+      .content p {
+        line-height: 1.6;
+        margin: 10px 0;
+        font-size: 1.5rem;
+      }
+      .footer {
+        border-top: 1.5px dashed #5a4949;
+        padding-top: 10px;
+
+        margin-top: 50px;
+      }
+      h2 {
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+        <h1>Scheidt & Bachmann</h1>
+    </div>
+    <div class="content">
+        <p>Receipt ID: {{ receipt_data.receipt_id }}</p>
+        <p>Payment Date: {{ receipt_data.payment_date }}</p>
+        <p>Entry Date: {{ receipt_data.entry_date }}</p>
+        <p>Ticket ID: {{ receipt_data.ticket_id }}</p>
+        <p>EPAN: {{ receipt_data.epan }}</p>
+        <p>Length of Stay: {{ receipt_data.length_of_stay }}</p>
+        <p>Parking fees : {{ receipt_data.parking_fees }} €</p>
+        <p>VAT ({{ receipt_data.vat_percentage }} %): {{ receipt_data.vat_amount }} €</p>
+        <p>Total amount: {{ receipt_data.total_amount }} €</p>
+    </div>
+    <div class="footer">
+        <h2>Thank you and drive safely</h2>
+    </div>
+</body>
+</html>

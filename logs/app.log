@@ -1,0 +1,16 @@
+2023-12-15 12:34:07.383 | DEBUG    | init:debug message | startup.py:15
+2023-12-15 12:34:07.384 | INFO     | init:info message | startup.py:16
+2023-12-15 12:34:07.384 | WARNING  | init:warning message | startup.py:17
+2023-12-15 12:34:07.385 | ERROR    | init:error message | startup.py:18
+2023-12-15 12:34:19.984 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:19.985 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
+2023-12-15 12:34:54.602 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:54.603 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
+2023-12-15 12:34:55.424 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:55.425 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
+2023-12-15 12:34:55.831 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:55.831 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
+2023-12-15 12:34:56.023 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:56.023 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
+2023-12-15 12:34:56.200 | INFO     | read_root:Header:{'_list': [(b'accept-encoding', b'gzip, deflate, br'), (b'accept', b'*/*'), (b'user-agent', b'Thunder Client (https://www.thunderclient.com)'), (b'content-typeg', b'application/json'), (b'host', b'127.0.0.1:3000'), (b'connection', b'close'), (b'content-length', b'0')]} | user.py:11
+2023-12-15 12:34:56.201 | ERROR    | read_root:Error on getting header Content-Type :'Content-Type' | user.py:16
