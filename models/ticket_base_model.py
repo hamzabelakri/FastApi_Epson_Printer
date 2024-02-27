@@ -3,8 +3,8 @@ from datetime import datetime
 
 class Ticket_Base_Model(BaseModel):
     receipt_id: int
-    payment_date: datetime
-    entry_date: datetime
+    payment_date: str
+    entry_date: str
     ticket_id: int
     epan: str
     length_of_stay: str
